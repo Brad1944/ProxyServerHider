@@ -1,3 +1,6 @@
+# DISCLAIMER
+The plugin is currently very much bypassable because it's using protocollib to decline MOTD packet from players, which does work but comes with a lot of bypasses since the connection itself is accepted through Minecraft's Netty. There should be a rework on this in order to be 100% safe with it (e.g Injecting minecraft's network stuff using reflections for a complete control). Right now this repo only acts as a POC and an idea proposal. Everyone is free to open up a pull request regarding this! :)  
+
 A Spigot Plugin Used for hiding servers from port scanner, without using any firewall
 
 ## Dependency
