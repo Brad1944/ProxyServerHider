@@ -6,7 +6,7 @@ A Spigot Plugin Used for hiding servers from port scanner, without using any fir
 ## Usage
 1. Install the latest version of ProtocolLib and This Plugin to your server
 2. Add your Bungeecord Server IP to the Whitelisted IPs list in the config
-3. (Optional) Change your server port to an [URL='https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers']Unused Popular TCP Ports[/URL] to hide it even more
+3. (Optional) Change your server port to an [Unused Popular TCP Ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) to hide it even more
 4. Restart your server
 
 ## Building
