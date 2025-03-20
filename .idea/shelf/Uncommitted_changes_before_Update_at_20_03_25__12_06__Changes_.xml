@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_20_03_25,_12_06_[Changes]" date="1742447176341" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_03_25,_12_06_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 20/03/25, 12.06 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/7.5.1/checksums/sha1-checksums.bin" />
+    <option name="AFTER_PATH" value=".gradle/7.5.1/checksums/sha1-checksums.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_03_25,_12_06_[Changes]/sha1-checksums.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_03_25,_12_06_[Changes]/outputFiles.bin" />
+  </binary>
+</changelist>
