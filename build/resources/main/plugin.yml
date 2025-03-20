@@ -1,5 +1,5 @@
 name: ProxyServerHider
-version: 1.0
+version: 1.1
 api-version: 1.13
 description: A Plugin aims to add a bit of protection for hosting that doesn't give firewall support
 main: top.apip.proxyserverhider.ProxyServerHider

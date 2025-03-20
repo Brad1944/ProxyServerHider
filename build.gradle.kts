@@ -17,7 +17,17 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.8.0")
     compileOnly("org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT")
-    compileOnly("com.comphenix.protocol:ProtocolLib:4.7.0")
+    //compileOnly("com.comphenix.protocol:ProtocolLib:4.7.0")
+
+    // https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy
+    implementation("net.bytebuddy:byte-buddy:1.14.17")
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    implementation("io.netty:netty-all:4.1.111.Final")
+
+}
+
+tasks.build {
+    dependsOn("shadowJar")
 }
 
 tasks.withType<KotlinCompile> {
