@@ -1,3 +1,6 @@
+# DISCLAIMER
+The plugin is currently very much bypassable because it's using protocollib to decline MOTD packet from players, which does work but comes with a lot of bypasses since the connection itself is accepted through Minecraft's Netty. There should be a rework on this in order to be 100% safe with it (e.g Injecting minecraft's network stuff using reflections for a complete control). Right now this repo only acts as a POC and an idea proposal. Everyone is free to open up a pull request regarding this! :)  
+
 A Spigot Plugin Used for hiding servers from port scanner, without using any firewall
 
 ## Dependency
@@ -6,7 +9,7 @@ A Spigot Plugin Used for hiding servers from port scanner, without using any fir
 ## Usage
 1. Install the latest version of ProtocolLib and This Plugin to your server
 2. Add your Bungeecord Server IP to the Whitelisted IPs list in the config
-3. (Optional) Change your server port to an [URL='https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers']Unused Popular TCP Ports[/URL] to hide it even more
+3. (Optional) Change your server port to an [Unused Popular TCP Ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) to hide it even more
 4. Restart your server
 
 ## Building
